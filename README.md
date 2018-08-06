@@ -1,4 +1,4 @@
-Status Guide:
+### Status Guide
 
 - `X` -- still a bug
 - `+` -- compiles now
@@ -6,39 +6,47 @@ Status Guide:
 
 ---
 
+### Crates that are still broken
+
 | Crate                  | Version | Status | Minimized | Issue      | Notes |
 | -----                  | ---     | ---    | ---       | ---        | ---   |
 | `argdata`              | 0.0.4   | X      | [1][]     |            | |
 | `attr`                 | 0.1.0   | X      | [2][]     |            | |
+| `extended-collections` | 0.1.0   | X      |           |            | like 0.2.0 |
+| `extended-collections` | 0.2.0   | X      |           |            | 2PB expansion? #51915 |
+| `gluon_base`           | 0.6.2   | X      |           |            | similar to 0.8.0 |
+| `gluon_base`           | 0.8.0   | X      |           |            | similar to envelope-0.8.1 ? |
+| `liner`                | 0.4.4   | X      |           | [#53114][] | |
+| `nalgebra`             | 0.15.3  | X      |           |            | 2PB expansion? #51915 |
+| `pear_codegen`         | 0.15.3  | X      |           |            | 2PB expansion? #51915 |
+| `shred`                | 0.7.0   | X      | [7][]     |            | something fishy here |
+| `try_transform_mut`    | 0.1.0   | X      | [8][]     |            | |
+
+---
+
+### Crates where errors were either fixed or are correct
+
 | `brassfibre`           | 0.2.0   | +      |           |            | |
 | `clucstr`              | 0.1.3   | +      |           |            | |
 | `embed`                | 0.1.1   | +      |           |            | |
 | `envelope`             | 0.8.1   | +      | [3][]     |            | |
-| `extended-collections` | 0.1.0   | X      |           |            | like 0.2.0 |
-| `extended-collections` | 0.2.0   | X      |           |            | 2PB expansion? #51915 |
 | `fscmp`                | 0.1.1   | +      |           |            | |
-| `galvanize`            | 0.0.1   | F      |           |            | #52059 |
+| `galvanize`            | 0.0.1   | F      |           |            | [#52059][] (diagnostics) |
 | `gearley`              | 0.0.1   | F      |           |            | |
-| `gluon_base`           | 0.6.2   | X      |           |            | similar to 0.8.0 |
-| `gluon_base`           | 0.8.0   | X      |           |            | similar to envelope-0.8.1 ? |
 | `ilp-packet`           | 0.3.0   | F      | [4][]     |            | |
 | `jmespath-macros`      | 0.1.1   | +      |           |            | |
-| `liner`                | 0.4.4   | X      |           | [#53114][] | |
-| `nalgebra`             | 0.15.3  | X      |           |            | 2PB expansion? #51915 |
-| `pear_codegen`         | 0.15.3  | X      |           |            | 2PB expansion? #51915 |
+| `rgen3-save`           | 0.1.0   | F      | [6][]     |            | |
 | `pgetopts`             | 0.1.2   | F      | [5][]     |            | |
 | `phf_macros`           | 0.7.22  | +      |           |            | |
 | `pom`                  | 2.0.1   | +      |           |            | |
-| `rgen3-save`           | 0.1.0   | F      | [6][]     |            | |
 | `rome`                 | 0.1.2   | +      |           |            | |
 | `segment-tree`         | 1.1.0   | +      |           |            | |
-| `shred`                | 0.7.0   | X      | [7][]     |            | something fishy here |
 | `speculate`            | 0.0.26  | +      |           |            | |
 | `swear`                | 0.1.0   | +      |           |            | |
 | `tarpc-plugins`        | 0.3.0   | +      |           |            | |
-| `try_transform_mut`    | 0.1.0   | X      | [8][]     |            | |
 | `unicode_names2_macros` | 0.2.0  | +      |           |            | |
 | `yara`                 | 0.1.0   | F      |           |            | [#52059][] (diagnostics) |
+
 
 [1]: https://play.rust-lang.org/?gist=1e7555092563371569caadb0d35b897c&version=nightly&mode=debug&edition=2015
 [2]: https://play.rust-lang.org/?gist=46146e256a3e138cbd42d0ee34b43571&version=nightly&mode=debug&edition=2015
