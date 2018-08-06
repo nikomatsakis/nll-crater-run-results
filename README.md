@@ -26,6 +26,8 @@
 
 ### Crates where errors were either fixed or are correct
 
+| Crate                  | Version | Status | Minimized | Issue      | Notes |
+| -----                  | ---     | ---    | ---       | ---        | ---   |
 | `brassfibre`           | 0.2.0   | +      |           |            | |
 | `clucstr`              | 0.1.3   | +      |           |            | |
 | `embed`                | 0.1.1   | +      |           |            | |
