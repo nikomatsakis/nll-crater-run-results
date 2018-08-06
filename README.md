@@ -63,4 +63,5 @@
 [#52059]: https://github.com/rust-lang/rust/issues/52059
 [#53121]: https://github.com/rust-lang/rust/issues/53121
 [#53123]: https://github.com/rust-lang/rust/issues/53123
+[#51915]: https://github.com/rust-lang/rust/issues/51915
 [9]: https://play.rust-lang.org/?gist=0265b0131f94793854ab1b7b1c96369e&version=nightly&mode=debug&edition=2015
