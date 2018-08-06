@@ -10,8 +10,6 @@
 
 | Crate                  | Version | Status | Minimized | Issue      | Notes |
 | -----                  | ---     | ---    | ---       | ---        | ---   |
-| `extended-collections` | 0.1.0   | X      |           | [#51915][] | 2PB expansion? |
-| `extended-collections` | 0.2.0   | X      | [9][]     | [#51915][] | 2PB expansion? |
 | `gluon_base`           | 0.6.2   | X      |           | [#53119][] | similar to 0.8.0 |
 | `gluon_base`           | 0.8.0   | X      |           | [#53119][] | |
 | `liner`                | 0.4.4   | X      |           | [#53114][] | |
@@ -30,6 +28,8 @@
 | `clucstr`              | 0.1.3   | +      |           |            | |
 | `embed`                | 0.1.1   | +      |           |            | |
 | `envelope`             | 0.8.1   | +      | [3][]     |            | |
+| `extended-collections` | 0.1.0   | F      |           | [#51915][] | wants a more aggressive 2PB |
+| `extended-collections` | 0.2.0   | F      | [9][]     | [#51915][] | wants a more aggressive 2PB |
 | `fscmp`                | 0.1.1   | +      |           |            | |
 | `galvanize`            | 0.0.1   | F      |           |            | [#52059][] (diagnostics) |
 | `gearley`              | 0.0.1   | F      |           |            | |
