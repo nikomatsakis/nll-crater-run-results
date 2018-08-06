@@ -10,8 +10,6 @@
 
 | Crate                  | Version | Status | Minimized | Issue      | Notes |
 | -----                  | ---     | ---    | ---       | ---        | ---   |
-| `argdata`              | 0.0.4   | X      | [1][]     |            | |
-| `attr`                 | 0.1.0   | X      | [2][]     |            | |
 | `extended-collections` | 0.1.0   | X      |           |            | like 0.2.0 |
 | `extended-collections` | 0.2.0   | X      |           |            | 2PB expansion? #51915 |
 | `gluon_base`           | 0.6.2   | X      |           |            | similar to 0.8.0 |
@@ -28,6 +26,8 @@
 
 | Crate                  | Version | Status | Minimized | Issue      | Notes |
 | -----                  | ---     | ---    | ---       | ---        | ---   |
+| `attr`                 | 0.1.0   | +      | [2][]     |            | |
+| `argdata`              | 0.0.4   | +      | [1][]     |            | |
 | `brassfibre`           | 0.2.0   | +      |           |            | |
 | `clucstr`              | 0.1.3   | +      |           |            | |
 | `embed`                | 0.1.1   | +      |           |            | |
