@@ -39,7 +39,7 @@
 | `getopts`              | 0.2.15  | F      |           |            | FIXME: find an issue link |
 | `gluon_base`           | 0.6.2   | +      |           | [#53119][] | similar to 0.8.0 |
 | `gluon_base`           | 0.8.0   | +      |           | [#53119][] | |
-| `ilp-packet`           | 0.3.0   | F      | [4][]     |            | FIXME: find an issue |
+| `ilp-packet`           | 0.3.0   | F      | [4][]     |            | FIXME: find an issue link |
 | `jmespath-macros`      | 0.1.1   | +      |           |            | |
 | `mop-solvers`          | 0.0.1   | F      |           |            | [#47349][] (diagnostics) |
 | `nalgebra`             | 0.11.2  | F      |           |            | same as 0.16.0 |
