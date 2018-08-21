@@ -103,3 +103,4 @@
 [13]: https://play.rust-lang.org/?gist=2d4da1787e06a75def402cfe1f9e544e&version=nightly&mode=debug&edition=2015
 [#29149]: https://github.com/rust-lang/rust/issues/29149
 [14]: https://play.rust-lang.org/?gist=36b94633fca7e490ba8c03f4fa94cbbd&version=nightly&mode=debug&edition=2015
+[#53040]: https://github.com/rust-lang/rust/issues/53040
