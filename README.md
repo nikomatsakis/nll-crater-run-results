@@ -10,11 +10,9 @@
 
 | Crate                  | Version | Status | Minimized | Issue      | Notes |
 | -----                  | ---     | ---    | ---       | ---        | ---   |
-| `gluon_base`           | 0.6.2   | X      |           | [#53119][] | similar to 0.8.0 |
-| `gluon_base`           | 0.8.0   | X      |           | [#53119][] | |
+| `attr`                 | 0.1.0   | X      | [2][]     |            | |
 | `liner`                | 0.4.4   | X      |           | [#53114][] | |
 | `shred`                | 0.7.0   | X      | [7][]     | [#53121][] | |
-| `try_transform_mut`    | 0.1.0   | X      | [8][]     | [#53123][] | |
 
 ---
 
@@ -22,7 +20,6 @@
 
 | Crate                  | Version | Status | Minimized | Issue      | Notes |
 | -----                  | ---     | ---    | ---       | ---        | ---   |
-| `attr`                 | 0.1.0   | +      | [2][]     |            | |
 | `argdata`              | 0.0.4   | +      | [1][]     |            | |
 | `brassfibre`           | 0.2.0   | +      |           |            | |
 | `clucstr`              | 0.1.3   | +      |           |            | |
@@ -31,10 +28,12 @@
 | `extended-collections` | 0.1.0   | F      |           | [#51915][] | wants a more aggressive 2PB |
 | `extended-collections` | 0.2.0   | F      | [9][]     | [#51915][] | wants a more aggressive 2PB |
 | `fscmp`                | 0.1.1   | +      |           |            | |
-| `galvanize`            | 0.0.1   | F      |           |            | [#52059][] (diagnostics) |
+| `galvanize`            | 0.0.1   | F      | [10][]    |            | [#52059][] (diagnostics) |
 | `gearley`              | 0.0.1   | F      |           |            | |
+| `gluon_base`           | 0.6.2   | +      |           | [#53119][] | similar to 0.8.0 |
+| `gluon_base`           | 0.8.0   | +      |           | [#53119][] | |
 | `ilp-packet`           | 0.3.0   | F      | [4][]     |            | |
-| `nalgebra`             | 0.15.3  | F      |           |            | #47349 (diagnostic) |
+| `nalgebra`             | 0.15.3  | F      |           |            | [#47349][] (diagnostics) |
 | `jmespath-macros`      | 0.1.1   | +      |           |            | |
 | `rgen3-save`           | 0.1.0   | F      | [6][]     |            | |
 | `pear_codegen`         | 0.0.18  | +      |           |            | |
@@ -46,6 +45,7 @@
 | `speculate`            | 0.0.26  | +      |           |            | |
 | `swear`                | 0.1.0   | +      |           |            | |
 | `tarpc-plugins`        | 0.3.0   | +      |           |            | |
+| `try_transform_mut`    | 0.1.0   | +      | [8][]     | [#53123][] | |
 | `unicode_names2_macros` | 0.2.0  | +      |           |            | |
 | `yara`                 | 0.1.0   | F      |           |            | [#52059][] (diagnostics) |
 
@@ -65,3 +65,5 @@
 [#53123]: https://github.com/rust-lang/rust/issues/53123
 [#51915]: https://github.com/rust-lang/rust/issues/51915
 [9]: https://play.rust-lang.org/?gist=0265b0131f94793854ab1b7b1c96369e&version=nightly&mode=debug&edition=2015
+[#47349]: https://github.com/rust-lang/rust/issues/47349
+[10]: https://play.rust-lang.org/?gist=f3c0638cd128773bfa2413e3d3ec3783&version=nightly&mode=debug&edition=2015
