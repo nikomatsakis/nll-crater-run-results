@@ -55,7 +55,7 @@
 | `rgen3-save`           | 0.1.0   | F      | [6][]     |            | might be a case for 2Phi borrows |
 | `rome`                 | 0.1.2   | +      |           |            | |
 | `rs-graph`             | 0.14.0  | F      |           |            | same as 0.14.1 |
-| `rs-graph`             | 0.14.1  | F      | ?         |            | [#53121][]? and [#47349][] (diagnostics) |
+| `rs-graph`             | 0.14.1  | F      | [15][] [16][] |        | [#53121][]? and [#47349][] (diagnostics) |
 | `rusttype`             | 0.2.1   | F      |           |            | same as 0.2.3 |
 | `rusttype`             | 0.2.3   | F      |           |            | [#29149][] |
 | `rustysecrets`         | 38f98   | F      | [12][]    |            | [#47349][] (diagnostics) |
@@ -106,3 +106,5 @@
 [#29149]: https://github.com/rust-lang/rust/issues/29149
 [14]: https://play.rust-lang.org/?gist=36b94633fca7e490ba8c03f4fa94cbbd&version=nightly&mode=debug&edition=2015
 [#53040]: https://github.com/rust-lang/rust/issues/53040
+[15]: https://play.rust-lang.org/?gist=f82cedfca0a942938d8fedf3f869c0cd&version=nightly&mode=debug&edition=2015
+[16]: https://play.rust-lang.org/?gist=72ff07aa838d8e4aacb283181e2a0824&version=nightly&mode=debug&edition=2015
