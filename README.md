@@ -39,7 +39,7 @@
 | `getopts`              | 0.2.15  | F      |           |            | FIXME: find an issue link |
 | `gluon_base`           | 0.6.2   | +      |           | [#53119][] | similar to 0.8.0 |
 | `gluon_base`           | 0.8.0   | +      |           | [#53119][] | |
-| `ilp-packet`           | 0.3.0   | F      | [4][]     |            | FIXME: find an issue |
+| `ilp-packet`           | 0.3.0   | F      | [4][]     |            | FIXME: find an issue link |
 | `jmespath-macros`      | 0.1.1   | +      |           |            | |
 | `mop-solvers`          | 0.0.1   | F      |           |            | [#47349][] (diagnostics) |
 | `nalgebra`             | 0.11.2  | F      |           |            | same as 0.16.0 |
@@ -54,10 +54,12 @@
 | `pom`                  | 2.0.1   | F      |           |[#53040][]? | FIXME: reconfirm |
 | `rgen3-save`           | 0.1.0   | F      | [6][]     |            | might be a case for 2Phi borrows |
 | `rome`                 | 0.1.2   | +      |           |            | |
+| `rs-graph`             | 0.14.0  | F      |           |            | same as 0.14.1 |
+| `rs-graph`             | 0.14.1  | F      | [15][] [16][] |        | [#53121][]? and [#47349][] (diagnostics) |
 | `rusttype`             | 0.2.1   | F      |           |            | same as 0.2.3 |
 | `rusttype`             | 0.2.3   | F      |           |            | [#29149][] |
 | `rustysecrets`         | 38f98   | F      | [12][]    |            | [#47349][] (diagnostics) |
-| `segment-tree`         | 1.1.0   | +?     |           |            | FIXME: reconfirm or [#47349][] |
+| `segment-tree`         | 1.1.0   | F (tests) |        |            | [#47349][] (diagnostics) |
 | `serenity`             | 0.4.8   | F      | [14][]    |            | |
 | `speculate`            | 0.0.26  | +      |           |            | |
 | `sprs`                 | 0.6.2   | F      |           |            | [#47349][] (diagnostics) |
@@ -104,3 +106,5 @@
 [#29149]: https://github.com/rust-lang/rust/issues/29149
 [14]: https://play.rust-lang.org/?gist=36b94633fca7e490ba8c03f4fa94cbbd&version=nightly&mode=debug&edition=2015
 [#53040]: https://github.com/rust-lang/rust/issues/53040
+[15]: https://play.rust-lang.org/?gist=f82cedfca0a942938d8fedf3f869c0cd&version=nightly&mode=debug&edition=2015
+[16]: https://play.rust-lang.org/?gist=72ff07aa838d8e4aacb283181e2a0824&version=nightly&mode=debug&edition=2015
