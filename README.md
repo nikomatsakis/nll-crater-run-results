@@ -59,7 +59,7 @@
 | `rusttype`             | 0.2.1   | F      |           |            | same as 0.2.3 |
 | `rusttype`             | 0.2.3   | F      |           |            | [#29149][] |
 | `rustysecrets`         | 38f98   | F      | [12][]    |            | [#47349][] (diagnostics) |
-| `segment-tree`         | 1.1.0   | +?     |           |            | FIXME: reconfirm or [#47349][] |
+| `segment-tree`         | 1.1.0   | F (tests) |        |            | [#47349][] (diagnostics) |
 | `serenity`             | 0.4.8   | F      | [14][]    |            | |
 | `speculate`            | 0.0.26  | +      |           |            | |
 | `sprs`                 | 0.6.2   | F      |           |            | [#47349][] (diagnostics) |
