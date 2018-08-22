@@ -11,7 +11,6 @@
 | Crate                  | Version | Status | Minimized | Issue      | Notes |
 | -----                  | ---     | ---    | ---       | ---        | ---   |
 | `attr`                 | 0.1.0   | X      | [2][]     | [#53569][] | |
-| `liner`                | 0.4.4   | X?     |           | [#53114][]?| FIXME: reconfirm |
 | `LocustDB`             | c59429  | X      | [11][]    | [#53570][] | |
 | `proptest-arbitrary`   | 0.2.2   | X?     |           | [#53570][]?| FIXME: reconfirm |
 | `shred`                | 0.7.0   | X      | [7][]     | [#53121][] | |
@@ -41,6 +40,7 @@
 | `gluon_base`           | 0.8.0   | +      |           | [#53119][] | |
 | `ilp-packet`           | 0.3.0   | F      | [4][]     |            | FIXME: find an issue link |
 | `jmespath-macros`      | 0.1.1   | +      |           |            | |
+| `liner`                | 0.4.4   | F      | [17][]    |            | |
 | `mop-solvers`          | 0.0.1   | F      |           |            | [#47349][] (diagnostics) |
 | `nalgebra`             | 0.11.2  | F      |           |            | same as 0.16.0 |
 | `nalgebra`             | 0.12.3  | F      |           |            | same as 0.16.0 |
@@ -108,3 +108,4 @@
 [#53040]: https://github.com/rust-lang/rust/issues/53040
 [15]: https://play.rust-lang.org/?gist=f82cedfca0a942938d8fedf3f869c0cd&version=nightly&mode=debug&edition=2015
 [16]: https://play.rust-lang.org/?gist=72ff07aa838d8e4aacb283181e2a0824&version=nightly&mode=debug&edition=2015
+[17]: https://play.rust-lang.org/?gist=7f96eeac405c6f2316fdc794c1631124&version=nightly&mode=debug&edition=2015
